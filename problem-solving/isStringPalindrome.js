@@ -3,5 +3,3 @@ function isStringPalindrome(string){
  let reservedString = string.split('').reverse().join('');
  return string === reservedString;
 }
-
-console.log(isStringPalindrome("madam"))
