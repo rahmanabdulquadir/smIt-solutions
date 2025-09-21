@@ -1,12 +1,19 @@
 import './App.css'
+import Expense from './components/Expense';
+import SideMenu from './components/SideMenu';
+import TransactionHistory from './components/TransactionHistory';
 
 function App() {
 
   return (
     <>
-      <h1></h1>
+      <div>
+        <SideMenu/>
+        <Expense/>
+        <TransactionHistory/>
+      </div>
     </>
   )
 }
 
-export default App
+export default App;
